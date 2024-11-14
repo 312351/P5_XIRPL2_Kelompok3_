@@ -1,0 +1,57 @@
+.bawahan {
+    background: url("Images/Footer di home.png") no-repeat center center;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    min-height: 200px; /* Menambah tinggi minimum */
+}
+.stextt {
+    padding: 25px;
+    margin-left: 25px;
+}
+.top-footer {
+    margin-top: 25px;
+}
+.penjelasan-footer {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+a img {
+    width: 40px; /* Ukuran gambar yang lebih besar */
+    height: 40px;
+}
+.centerr {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.youtube, .instagram {
+    align-items: center;
+}
+.fa-phone, .fa-map-marker-alt {
+    font-size: 25px;
+}
+.about {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 25px;
+    gap: 50%;
+}
+.footer-sambungan {
+}
+.copykanan {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

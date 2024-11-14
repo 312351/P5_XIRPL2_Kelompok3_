@@ -1,0 +1,124 @@
+.siswaX-conten{    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: #f0eded;
+    padding: 50px;
+    border-radius: 5px;
+    height: 100%;
+    width: 75%; 
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+    overflow-y: auto;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-conten{
+    background-color: burlywood;
+}
+.ngurutin{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   gap: 25px;
+   width: 100%;
+   height: 100%;
+   border: 1px solid rgb(231, 226, 226);
+}
+.container-kls{
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 25%;
+    background-color: white;
+    border: 1px solid rgb(242, 240, 240);
+ display: flex;
+ 
+}
+.images-container{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25%;
+}
+.Imagess{
+    background: url(Images/Snapinsta.app_454157415_26260994750212080_5373401436139802329_n_1080.jpg);
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+}
+.Imagess1{
+    background: url(Images/Snapinsta.app_454134079_965850355340156_8973882421499445029_n_1080.jpg);
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+}
+.blur{
+    background: linear-gradient(1deg,white,rgba(255, 255, 255, 0.461),rgba(109, 29, 29, 0.151));
+    width: 100%;
+    height: 100%;
+}
+.Button-sendiri{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.Button-sendiri p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.Button-sendiri p:hover{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+   text-decoration: underline;
+}
+.search-input{
+    border: none;
+    outline: none;
+}
+.table{
+    width: 100%;
+    margin-top: 100px;
+
+}
+.modal-content{
+    margin-top: 125px
+}
+.fa-arrow-left{
+text-align: start;
+}
+.arrow{
+    align-items: start;
+    margin-top: 30%;
+    cursor: pointer;
+}
+.text-tengah{
+    color: rebeccapurple;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+input[type=text]{
+    background-color: #f0eded;
+}

@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+      background-color: #ffffff;
+      overflow-x: hidden; /* Menyembunyikan scroll horizontal */
+  }
+
+.topnav {
+    overflow: hidden;
+    text-align: justify;
+    font-style: unset;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav div {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  
+  .topnav div:hover {
+    background-color:#72533b;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .topnav a.active {  
+    background-color: #040b8686;
+    color: white;
+  }
+  
+  .active {
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+  }
+  
+  .layer{
+    background-color: #04AA6D;
+    width: 10px 50px;
+  } 
+  .pala{
+    height: 75px;
+    background: linear-gradient(45deg,#B8CFEF,#B99A82);
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+  
+  }
+  
+  .pa{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start; /* Changed to 'flex-start' for better alignment */
+    gap: 10px;
+    background-color: ;
+    margin-left: 25px;
+  }
+  .pal{
+    height: 50px;
+    margin-top: 10px;
+  }
+  .lingkan {
+    color:white;
+    text-decoration: none;
+    cursor: pointer;    
+  }
+  .cases{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    background-color: ;
+    align-items: center;
+  }
+  .tengah{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+  }
+  .smk{
+    flex: auto;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .lingkan:hover{
+    color: rgba(174, 174, 174, 0.32);
+    text-decoration: underline;
+  }
+  .contain{
+    align-content: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 25px;
+    margin:25px;
+    
+  }
+  .bgc{
+      width: 10%;
+    background-color: #04AA6D;
+  }
+  .bs{
+    margin-left: 5px;
+    height: 5cm;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    align-items: center;
+    margin-top:;
+    padding: 5px 10px;
+    text-align: left;
+    width: 100%; /* Pastikan lebar input sesuai kebutuhan */
+    padding: 10px; /* Padding untuk memberikan ruang di dalam */
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .input-container{
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;  
+    margin-right: 10px;
+  }
+  .buttonbru{
+    background-color:#242bb5; ;
+  }
+.case{
+  align-items: center;
+}

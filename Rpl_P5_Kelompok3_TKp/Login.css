@@ -1,0 +1,176 @@
+body{
+    background-image: url(../Assets/Loginbg.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=password],input[type=email]{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.inputa{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.checkbox-container {
+    display: flex;               /* Use Flexbox for alignment */
+    justify-content: center;     /* Center them horizontally */
+    align-items: center;        /* Center vertically */
+    margin-top: 16px;          /* Add some margin for spacing */
+}
+
+span.psw {
+    margin-left: 80px;          /* Space between checkbox and span */
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+/* The Modal (background) */
+.modal {
+    background: url(Images/Frame\ 2.png);
+ /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    padding-top: 60px;
+  }
+
+  /* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+   border: 1px solid #888;
+   width: 30%; /* Could be more or less, depending on screen size */
+   height: 70%;
+   border-radius: 50px;
+   background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+   backdrop-filter: blur(8px); /* Apply blur */
+}
+
+.hdsite{
+    display: flex;
+    flex-direction: bar;
+    align-items: center;
+    gap: 15px; /* Space between each element */
+    text-align: center;
+}
+
+#h1head{
+    margin-right: 26%;
+    color: rgb(74, 81, 120);
+    padding-left: 10px;
+}
+
+#dmy1, #dmy2, #dmy3, #dmy4, #Logbtn{
+    background-color: transparent;
+    color: rgb(74, 81, 120);
+    font-size: 20px;
+    border: none;
+    margin: 8px 0;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    padding: 10px 30px;
+    font-weight: 900;
+}
+
+#dmy1:hover, #dmy2:hover, #dmy3:hover, #dmy4:hover, #Logbtn:hover {
+    outline: 4px solid white; /* Border appears only on hover */
+}
+
+.container{
+    width: 75%; /* Set the same width as your input fields */
+    margin: 0 auto; /* Center the container */
+    padding: 10px;
+}
+
+.profile{
+    margin: 0 auto;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.profile-text{
+    margin: 0 auto;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
+
+/* Centering the profile picture */
+#pfp{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the profile picture */
+    border-radius: 50%; /* Optional: make the image round */
+}
+
+#Login1{
+    background-color: rgb(0, 55, 128);
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin: 8px 0;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.inputb{
+    justify-content: center;
+    text-align: center;
+}
+#Gpic, #Fpic {
+    width: 25px; /* Smaller size to fit better inside button */
+    height: 25px;
+    margin-right: 10px; /* Space between image and text */
+}
+
+#Google, #Facebook {
+    display: flex;
+    align-items: center;       /* Vertically center image and text */
+    justify-content: center;    /* Center content horizontally */
+    background-color: #4285F4;  /* Example Google button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;               /* Adjust width as desired */
+    margin: 10px auto;         /* Center button on the page */
+    font-size: 16px;
+}
+#Facebook {
+    background-color: #3b5998; /* Example Facebook button color */
+}
+    .background1 {
+        background: url('Images/Frame 2.png'), rgba(255, 255, 255, 0.3);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+.google{
+}
